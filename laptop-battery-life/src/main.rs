@@ -36,7 +36,7 @@ fn main() {
 }
 
 
-/// Transforms the trainging data to a tuple where the first value is a matrix with input values and
+/// Transforms the training data to a tuple where the first value is a matrix with input values and
 /// the second value contains the corresponding target values.
 fn get_training_data(filename: &str) -> (Matrix<f64>, Vector<f64>, f64) {
     let (training_data, maximum_target) = get_data(filename);
