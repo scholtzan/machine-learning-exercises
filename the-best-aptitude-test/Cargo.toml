@@ -1,0 +1,8 @@
+[package]
+name = "the-best-aptitude-test"
+version = "0.1.0"
+authors = ["Anna Scholtz <anna@scholtzan.net>"]
+
+[dependencies]
+rusty-machine = "0.4.3"
+csv = "0.14"
